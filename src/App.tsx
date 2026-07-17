@@ -1,14 +1,19 @@
 import { Heading } from './components/Heading';
+import { Container } from './components/Container';
+import './styles/theme.css';
+import './styles/global.css';
+
 
 export function App() {
   return (
     <>
-      <Heading />
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab in, perspiciatis dicta quibusdam consequatur
-        aspernatur. Earum quo tenetur sapiente expedita obcaecati quis repudiandae ipsa quam necessitatibus, nesciunt
-        laborum totam qui.
-      </p>
+      <Container>
+        <Heading>Logo</Heading>
+      </Container>
+      <Container>
+        <Heading>Menu</Heading>
+      </Container>
+      
     </>
   );
 }
