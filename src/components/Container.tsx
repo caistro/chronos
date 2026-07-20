@@ -3,7 +3,7 @@ type ContainerProps = {
 }
 export function Container({children}: ContainerProps){
     return(
-        <div className="max-w-8xl mx-auto">
+        <div className="max-w-7xl mx-auto">
             <div className="m-12">{children}</div>
         </div>
     )
