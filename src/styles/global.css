@@ -1,13 +1,9 @@
 /*Estilo globais na aplicação*/
-
-* {
+html {
+  font-size: 62.5%;
   margin: 0;
   padding: 0;
   box-sizing: 0;
-}
-
-html {
-  font-size: 62.5%;
 }
 
 body {
