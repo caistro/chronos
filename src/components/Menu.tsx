@@ -6,16 +6,16 @@ const classesLinkIcon =
 export function Menu() {
     return (
         <nav className='flex items-center justify-center gap-6'>
-            <a className={classesLinkIcon} href='#'>
+            <a className={classesLinkIcon} href='#' aria-label='Ir para a Home' title='Ir para a Home'>
                 <HouseIcon className='h-10 w-10' />
             </a>
-            <a className={classesLinkIcon} href='#'>
+            <a className={classesLinkIcon} href='#' aria-label='Ver Histórico' title='Ver Histórico'>
                 <HistoryIcon className='h-10 w-10' />
             </a>
-            <a className={classesLinkIcon} href='#'>
+            <a className={classesLinkIcon} href='#' aria-label='Configurações' title='Configurações'>
                 <SettingsIcon className='h-10 w-10' />
             </a>
-            <a className={classesLinkIcon} href='#'>
+            <a className={classesLinkIcon} href='#' aria-label='Mudar tema' title='Mudar tema'>
                 <SunIcon className='h-10 w-10' />
             </a>
         </nav>
