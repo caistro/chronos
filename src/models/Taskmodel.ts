@@ -3,7 +3,7 @@ import type { TaskStateModel } from './TaskStateModel';
 export type TaskModel = {
     id: string;
     name: string;
-    durantrion: number;
+    duration: number;
     starDate: number;
     completeDate: number | null;
     interruptDate: number | null;
