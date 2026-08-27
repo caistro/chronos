@@ -60,9 +60,13 @@ export function MainForm() {
             <div className='flex flex-col items-center justify-center gap-9'>
                 <p>Lorem ipsum dolor sit amet.</p>
             </div>
-            <div className='flex flex-col items-center justify-center gap-9'>
-                <Cycles />
-            </div>
+
+            {state.currentCycle > 0 && (
+                <div className='flex flex-col items-center justify-center gap-9'>
+                    <Cycles />
+                </div>
+            )}
+
             <div className='flex flex-col items-center justify-center gap-9'>
                 <Defaultbutton color='green'>
                     <PlayCircleIcon className='h-12 w-12' />
